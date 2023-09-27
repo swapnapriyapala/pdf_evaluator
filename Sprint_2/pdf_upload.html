@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PDF Evaluate</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+    <div class="nav_style">
+
+        <div class="nav_pills">
+            
+            <p >PDF Evaluate</p>
+        </div>
+
+        <div class="nav_pills2">
+            <a href="{{ url_for('logout') }}" class="butt_color4">Logout</a>
+        </div>
+        <div class="nav_pills2">
+            <a href="{{ url_for('dashboard') }}" class="butt_color4">Dashboard</a>
+        </div>
+        <div class="nav_pills2">
+            <a href="{{ url_for('account') }}" class="butt_color4">Account</a>
+        </div>
+    </div>
+
+    <div class="container pdf_body">
+        <p class="wel_style">Welcome {{username}}</p>
+
+        <h3>Upload a PDF</h3>
+        <br>
+        <form method="POST" enctype="multipart/form-data" action="{{ url_for('pdf_upload') }}">
+
+            <div class="container">
+                <div class="mb-3">
+
+                    <input class="form-control pdf_label" type="file" name="pdf_file" accept=".pdf" id="formFile">
+                </div>
+                <br>
+                <button type="submit" class="btn btn-outline-primary" value="Upload">Upload</button>
+
+            </div>
+
+        </form>
+        <br>
+
+        <h2>Uploaded PDF</h2>
+
+        {% if pdf_filename %}
+        <p>File Name: {{ pdf_filename }}</p>
+        <embed src="{{ url_for('static', filename='uploads/' + pdf_filename) }}" width="800" height="600"
+            type="application/pdf">
+        {% else %}
+        <p>No PDF file uploaded yet.</p>
+        {% endif %}
+
+
+
+
+    </div>
+</body>
+
+</html>
