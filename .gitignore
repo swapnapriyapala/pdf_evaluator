@@ -1,0 +1,18 @@
+# Virtual Environment
+kama/
+
+# Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Logs
+*.log
+
+# Flask
+instance/
+.webassets-cache/
+
+# Temp files
+*.tmp
