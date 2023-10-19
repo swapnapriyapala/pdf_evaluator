@@ -1,0 +1,185 @@
+.form-floating{
+    margin-bottom: 4%;
+}
+
+.head_style{
+    text-align: center;
+    margin: 4%;
+}
+
+.main_body{
+    background-color: #ffffff8c;
+    padding: 50px;
+    border-radius: 24px;
+    color:rgba(49, 52, 109, 0.927);
+    font-weight: bolder;
+}
+
+.main_body2{
+    width: 40%;
+    background-color: #ffffff8c;
+    padding: 50px;
+    border-radius: 24px;
+    color:rgba(49, 52, 109, 0.927);
+    font-weight: bolder;
+}
+
+.button-color{
+    background-color: rgb(31, 75, 66);
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.button-color:hover{
+    background-color: rgba(49, 52, 109, 0.927);
+    color: white;
+    padding: 10px 30px 10px 30px;
+
+}
+
+.button-color1{
+    background-color: rgb(31, 75, 66);
+    color: white;
+    margin-top: 2%;
+    padding: 6px 40px 6px 40px;
+}
+.button-color1:hover{
+    background-color: rgb(27, 39, 31);
+    color: white;
+}
+
+.alert_style{
+    margin-top: 2%;
+}
+
+.fc{
+    width: 40%;
+}
+.fcs{
+    width: 30%;
+    border: 1px solid black;
+}
+
+.pdf_body{
+    margin: 5%;
+}
+
+.wel_style{
+    margin-bottom: 10%;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.sub_nav{
+    float: left;
+    margin-right: 20px;
+    
+}
+
+.nav_style{
+    padding: 70px;
+    background-color: rgb(25, 17, 72);
+    width: 100%;
+    color: white;
+}
+
+
+
+.butt_color4{
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    padding: 10px 30px 10px 30px;
+    border-radius: 24px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+
+.butt_color4:hover{
+    
+    align-items: center;
+    background-color: white;
+    color: rgb(25, 17, 72);
+}
+
+.nav_pills{
+    float: left;
+    margin-right: 10%;
+    font-size: 40px;
+
+}
+
+
+.nav_pills2{
+    float: right;
+    margin-left: 10%;
+}
+
+.reg_styel{
+    text-decoration: none;
+    
+}
+
+.nreg{
+    margin-top: 20px;
+}
+.logo_style{
+    margin-left: -50%;
+}
+.logo_style2{
+
+    width: 40%;
+    margin-top: -13%;
+   
+    float: left;
+}
+
+.logo_style_pdf{
+    width: 20%;
+    margin-top: -13%;
+   
+    float: left;
+
+}
+
+.ac_style{
+    text-align: center;
+}
+
+.mar_ac{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.img_ana{
+    width: auto;
+    height: auto;
+
+    
+}
+.img_ana_set_mar{
+    margin-top: -6%;
+}
+
+.img_body_ana{
+    border-style: none;
+}
+
+
+.img_ana_font_stl{
+    
+    background-color: rgb(25, 17, 72);
+    border-radius: 24px;
+    width: auto;
+    padding: 3px 3px 3px 20px;
+    color: white;
+}
+
+.img_text_ana{
+color: rgb(25, 17, 72);
+}
+
+.body_img_mar{
+    margin-left: 10%;
+}
